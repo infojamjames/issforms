@@ -15,3 +15,15 @@ body:
       placeholder: ex. Can you create a new report for assessments?
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for requesting!
+  - type: input
+    id: request
+    attributes:
+      label: Request
+      description: Please insert your request.
+      placeholder: ex. Can you create a new report for assessments?
+    validations:
+      required: true
