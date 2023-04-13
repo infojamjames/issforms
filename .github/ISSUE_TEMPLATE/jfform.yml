@@ -12,6 +12,6 @@ body:
     attributes:
       label: Request
       description: Please insert your request.
-      placeholder: ex. Can you create a new report that tells us the latest end date for all asssessments
+      placeholder: ex. Can you create a new report for assessments?
     validations:
       required: true
