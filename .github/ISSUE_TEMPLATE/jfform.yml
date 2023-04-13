@@ -3,10 +3,6 @@ description: This is the description for a request
 title: Request for
 
 body: 
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for requesting!
   - type: input
     id: request
     attributes:
