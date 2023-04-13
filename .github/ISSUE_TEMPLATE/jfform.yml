@@ -10,8 +10,8 @@ body:
   - type: input
     id: contact
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Your Name
+      description: We need your name to know who you are!
+      placeholder: ex. James
     validations:
-      required: false
+      required: true
