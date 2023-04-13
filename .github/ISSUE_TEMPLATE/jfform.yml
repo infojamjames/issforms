@@ -15,4 +15,11 @@ body:
       description: We need your name to know who you are!
       placeholder: ex. James
     validations:
+      required: tru
+    - type: dropdown
+      attributes: 
+      label: Person
+      description: Who are you choosing?
+      options: ["James, Andy, Steve"]
+      validations:
       required: true
