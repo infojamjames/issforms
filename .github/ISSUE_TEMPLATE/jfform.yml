@@ -17,6 +17,7 @@ body:
     validations:
       required: tru
     - type: dropdown
+      id: person
       attributes: 
       label: Person
       description: Who are you choosing?
