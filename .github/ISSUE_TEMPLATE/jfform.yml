@@ -1,7 +1,6 @@
-name : Person Details Form
-description: This is a description for the person.
-title: Person Details
-labels: ["bug, enhancement"]
+name : Request Form
+description: This is the description for a request
+title: Requested 
 
 body: 
   - type: markdown
@@ -9,10 +8,10 @@ body:
       value: |
         Thanks for taking the time to fill out this bug report!
   - type: input
-    id: contact
+    id: request
     attributes:
-      label: Your Name
-      description: We need your name to know who you are!
+      label: Request
+      description: Please insert your request.
       placeholder: ex. James
     validations:
       required: true
