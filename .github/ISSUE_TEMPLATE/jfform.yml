@@ -17,7 +17,8 @@ body:
       required: true
   - type: markdown
     attributes:
-    value: Thanks
+    value: | 
+    Thanks
   - type: textarea
     id: description
     attributes:
