@@ -16,11 +16,3 @@ body:
       placeholder: ex. James
     validations:
       required: true
-    - type: dropdown
-      id: person
-      attributes: 
-      label: Person
-      description: Who are you choosing?
-      options: ["James, Andy, Steve"]
-      validations:
-      required: true
