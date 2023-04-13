@@ -3,6 +3,15 @@ description: This is a description the XYZ form.
 labels: ["bug, enhancement"]
 
 body: 
-  - type: textarea
-    label: What is your name? 
-    value: James 
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
