@@ -1,7 +1,7 @@
 name: James
 description: File a bug report
 title: "[Bug]: "
-labels: ["bug", "triage"]
+labels: ["enhancement", "triage"]
 assignees:
   - octocat
 body:
