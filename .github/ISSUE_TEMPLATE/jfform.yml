@@ -19,11 +19,11 @@ body:
     attributes:
       value: |
         Thanks for requesting!
-  - type: input
-    id: request
+  - type: textarea
+    id: description
     attributes:
-      label: Request
-      description: Please insert your request.
-      placeholder: ex. Can you create a new report for assessments?
+      label: Description
+      description: Use this box to add a more details 
+      placeholder:
     validations:
-      required: true
+      required: false
