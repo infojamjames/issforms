@@ -11,10 +11,6 @@ body:
       placeholder: ex. Can you create a new report for assessments?
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for adding a description
   - type: textarea
     id: description
     attributes:
