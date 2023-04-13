@@ -6,12 +6,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for requesting!
   - type: input
     id: request
     attributes:
       label: Request
       description: Please insert your request.
-      placeholder: ex. James
+      placeholder: ex. Can you create a new report that tells us the latest end date for all asssessments
     validations:
       required: true
