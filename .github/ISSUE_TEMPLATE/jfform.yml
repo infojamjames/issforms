@@ -1,5 +1,6 @@
-name : XYZ Form
-description: This is a description the XYZ form.
+name : Person Details Form
+description: This is a description for the person.
+title: Person Details
 labels: ["bug, enhancement"]
 
 body: 
