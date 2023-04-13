@@ -1,0 +1,8 @@
+name : XYZ Form
+description: This is a description the XYZ form.
+labels: ["bug, enhancement"]
+
+body: 
+  - type: textarea
+    label: What is your name? 
+    value: James 
