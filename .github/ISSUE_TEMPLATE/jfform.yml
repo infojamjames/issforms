@@ -19,3 +19,11 @@ body:
       placeholder:
     validations:
       required: false
+  - type: textarea
+    id: descriptionn
+    attributes:
+      label: Description
+      description: Use this box to add a more details 
+      placeholder:
+    validations:
+      required: false
