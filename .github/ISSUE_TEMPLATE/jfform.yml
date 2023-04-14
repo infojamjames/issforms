@@ -27,3 +27,5 @@ body:
     - Web
     - API
     - Mobile
+    validations:
+    required: true
