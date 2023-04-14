@@ -11,10 +11,13 @@ body:
       placeholder: ex. Can you create a new report for assessments?
     validations:
       required: true
-  - type: dropdown
-    id: dropdown
+  - type: input
+    id: request
     attributes:
-      label: Please select an option
+      label: Request
+      description: Please insert your request.
+      placeholder: ex. Can you create a new report for assessments?
     validations:
       required: true
+
 
