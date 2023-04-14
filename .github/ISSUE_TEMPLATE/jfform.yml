@@ -24,6 +24,9 @@ body:
     attributes:
       label: Choose an option
       description: Choose an option relevant to your request
-    options: ["James, Andy, Steve"]
+    options: 
+    - Web
+    - API
+    - Mobile
     validations:
       required: false
