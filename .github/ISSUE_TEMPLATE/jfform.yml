@@ -1,6 +1,6 @@
 name : Request Form
 description: Please submit your request below
-title: Request for
+title: Request
 
 body: 
   - type: input
