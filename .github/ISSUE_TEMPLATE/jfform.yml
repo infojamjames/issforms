@@ -21,9 +21,9 @@ body:
       required: false
   - type: dropdown
     id: dropdown
-    options:
+    options: 
     - Web
     - API
     - Mobile
-    validations:
+    validations: 
     required: true
