@@ -17,7 +17,7 @@ body:
       label: Description
       description: Use this box to add more details!
     validations:
-      required: true
+      required: false
   - type: dropdown
     id: project
     attributes:
