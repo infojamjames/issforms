@@ -14,3 +14,11 @@ body:
       - Built from source
   validations:
     required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Use this box to add a more details 
+      placeholder:
+    validations:
+      required: false
