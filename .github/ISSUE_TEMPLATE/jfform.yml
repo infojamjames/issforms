@@ -20,9 +20,7 @@ body:
     validations:
       required: false
   - type: dropdown
-    id: drop
-    attributes: 
-    label: Please select an option
+    id: dropdown
     options:
     - Web
     - API
