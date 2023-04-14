@@ -19,7 +19,7 @@ body:
       placeholder:
     validations:
       required: false
-  body:
+      
 - type: dropdown
   id: download
   attributes:
