@@ -23,7 +23,6 @@ body:
     id: options
     attributes:
       label: Choose an option
-      description: Choose an option relevant to your request
     options: 
     - Web
     - API
