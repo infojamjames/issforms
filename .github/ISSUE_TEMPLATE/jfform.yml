@@ -11,12 +11,16 @@ body:
       placeholder: ex. Can you create a new report for assessments?
     validations:
       required: true
-  - type: textarea
-    id: description
-    attributes:
-      label: Description
-      description: Use this box to add a more details 
-      placeholder:
-    validations:
-      required: false
+    - type: dropdown
+  id: download
+  attributes:
+    label: How did you download the software?
+    options:
+      - Homebrew
+      - MacPorts
+      - apt-get
+      - Built from source
+  validations:
+    required: true
+
 
