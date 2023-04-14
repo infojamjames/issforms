@@ -43,4 +43,7 @@ body:
     id: start-date
     attributes:
       label: Start date
-
+  - type: input
+    id: end-date
+    attributes:
+      label: End date
