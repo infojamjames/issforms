@@ -19,13 +19,4 @@ body:
       placeholder:
     validations:
       required: false
-  - type: dropdown
-    id: reason
-    attributes:
-      label: Choose an option
-    options: 
-    - Web
-    - API
-    - Mobile
-    validations:
-      required: true
+
