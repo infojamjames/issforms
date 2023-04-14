@@ -19,11 +19,11 @@ body:
       placeholder:
     validations:
       required: false
-  - type: textarea
-    id: descriptionn
+  - type: dropdown
+    id: options
     attributes:
-      label: Description
-      description: Use this box to add a more details 
-      placeholder:
+      label: Choose an option
+      description: Choose an option relevant to your request
+    options: ["James, Andy, Steve"]
     validations:
       required: false
