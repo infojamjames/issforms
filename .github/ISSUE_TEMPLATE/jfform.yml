@@ -16,8 +16,6 @@ body:
     attributes:
       label: Description
       description: Use this box to add more details!
-      placeholder: 
-      value: "A bug happened!"
     validations:
       required: true
   - type: dropdown
