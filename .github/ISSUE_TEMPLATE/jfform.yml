@@ -23,11 +23,12 @@ body:
   - type: dropdown
     id: version
     attributes:
-      label: Version
-      description: What version of our software are you running?
+      label: Project
+      description: What project does this request belong to?
       options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
+        - 1
+        - 2
+        - 3
     validations:
       required: true
   - type: dropdown
