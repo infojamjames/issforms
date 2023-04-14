@@ -20,7 +20,7 @@ body:
     validations:
       required: false
   - type: dropdown
-    id: options
+    id: reason
     attributes:
       label: Choose an option
     options: 
@@ -28,4 +28,4 @@ body:
     - API
     - Mobile
     validations:
-      required: false
+      required: true
