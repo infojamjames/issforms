@@ -2,24 +2,7 @@ name : Request Form
 description: Please submit your request below
 title: Request
 
-body: 
-  - type: input
-    id: request
-    attributes:
-      label: Request
-      description: Please insert your request.
-      placeholder: ex. Can you create a new report for assessments?
-    validations:
-      required: true
-  - type: textarea
-    id: description
-    attributes:
-      label: Description
-      description: Use this box to add a more details 
-      placeholder:
-    validations:
-      required: false
-      
+body:
 - type: dropdown
   id: download
   attributes:
