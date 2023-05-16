@@ -3,14 +3,6 @@ description: Please submit your request below
 title: Request
 
 body:
-  - type: input
-    id: Request
-    attributes:
-      label: Request
-      description: Please submit your request.
-      placeholder: ex. Can I have a report for assessments?
-    validations:
-      required: true
   - type: textarea
     id: more-details
     attributes:
