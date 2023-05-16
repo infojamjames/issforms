@@ -14,7 +14,7 @@ body:
     id: more-details
     attributes:
       label: Description
-      description: Who is accosiated, What is the request, Where does the requested information belong, When was the request requested, Why did they request it, How could the request be resolved? 
+      description: Who is accosiated, What is the request, Where does the requested information belong, When was the request requested, Why was it requested, How could the request be resolved? 
     validations:
       required: true
   - type: dropdown
