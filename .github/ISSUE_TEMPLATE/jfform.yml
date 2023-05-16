@@ -1,55 +1,119 @@
-name : Request Form
+name: Request Form
+
 description: Please submit the request below.
+
 title: Request
 
 body:
+
   - type: input
+
     id: Requester
+
     attributes:
+
       label: Requester
+
       description: Who requested this feature?
+
     validations:
+
       required: true
+
   - type: textarea
+
     id: more-details
+
     attributes:
+
       label: Description
-      description: Who is accosiated, What is the request, Where does the requested information belong, When was the request requested, Why was it requested, How could the request be resolved? 
+
+      description: |
+
+        Who is associated,
+
+        What is the request,
+
+        Where does the requested information belong,
+
+        When was the request requested,
+
+        Why was it requested,
+
+        How could the request be resolved?
+
     validations:
+
       required: true
+
   - type: dropdown
+
     id: project
+
     attributes:
+
       label: Project
+
       description: What project does this request belong to?
+
       options:
+
         - 1
+
         - 2
+
         - 3
+
     validations:
+
       required: true
+
   - type: dropdown
+
     id: strategy
+
     attributes:
+
       label: Strategy
+
       multiple: false
+
       options:
+
         - Firefox
+
         - Chrome
+
         - Safari
+
         - Microsoft Edge
+
   - type: input
+
     id: start-date
+
     attributes:
+
       label: Start date
+
   - type: input
+
     id: end-date
+
     attributes:
+
       label: End date
+
   - type: textarea
+
     id: add-details
+
     attributes:
+
       label: Additional Details
+
       description: Use this box to add more details!
+
     validations:
+
       required: false
