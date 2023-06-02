@@ -58,11 +58,11 @@ body:
 
       options:
 
-        - 1
+        - Safeguarding
 
-        - 2
+        - Carers
 
-        - 3
+        - CSC Daily
 
     validations:
 
@@ -80,13 +80,12 @@ body:
 
       options:
 
-        - Firefox
+        - CIN
 
-        - Chrome
+        - CP
 
-        - Safari
+        - CLA
 
-        - Microsoft Edge
 
   - type: input
 
